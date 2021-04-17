@@ -109,14 +109,12 @@ body {
   color: var(--mainTextDark);
   padding: 3em 4.5em 7em;
 }
-.footer-div {
+footer {
   text-align: center;
-}
-.footer {
   font-size: 1.5rem;
   color: #eee;
   background-color: #303b4d;
-  padding: 2em;
+  padding: 1em 2em 2em 2em;
 }
 .img-div {
   text-align: center;
@@ -174,8 +172,23 @@ body {
 .menuIcon {
   color: #eee;
   display: none;
+  margin-right: 0.5rem;
 }
-#tri-line::after {
-  content: "\2630";
-  text-align: center;
+.soci {
+  display: flex;
+  justify-content: center;
+  padding: 0 1em 1em 1em;
+}
+.contact a {
+  margin: 0.25em;
+  border-radius: 15px;
+  font-size: 3em;
+  color: #eee;
+  
+}
+#contact-heading {
+  float: center;
+  font-size: 1.5em;
+  padding: 1em 1em 0 1em;
+  color: var(--mainText);
 }

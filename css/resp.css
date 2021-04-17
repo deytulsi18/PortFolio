@@ -12,10 +12,6 @@
     flex-direction: column;
     font-size: x-large;
   }
-  .nav-list {
-    padding-top: 2.5rem;
-    flex-direction: column;
-  }
   .class-resp {
     display: none;
   }
@@ -43,7 +39,7 @@
     width: 100%;
     height: 100%;
     background: rgb(238, 238, 238);
-    padding-top: 7em;
+    justify-content: center;
     flex-direction: column;
   }
 
@@ -54,26 +50,26 @@
   .container header ul li {
     text-align: center;
     margin: 1em;
+    font-weight: 900;
   }
 
   .container header ul li a {
-    color: #333;
+    color: #374254;
     font-size: 1.5em;
   }
 
   .container header ul li a:hover {
-    color: #303b4d;
+    color: black;
     font-weight: 900;
   }
   .menuIcon {
     position: sticky;
     float: right;
-    width: 50px;
-    height: 50px;
     display: initial;
     font-size: 1.5em;
     text-align: center;
     cursor: pointer;
+    margin-right: 0.5rem;
   }
   .menuIcon.active span {
     color: #eee;
@@ -81,7 +77,9 @@
   }
   .menuIcon.active:after {
     color: var(--mainColor);
-    content: "\2716";
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-size: 1.5em;
   }
   #main-img {
     width: 50%;
@@ -135,5 +133,21 @@
   }
   #main-img:hover {
     width: 85.5%;
+  }
+  .contact a {
+    margin: 0.25em;
+    border-radius: 15px;
+    font-size: 2em;
+    color: #eee;
+  }
+  .lang {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media only screen and (max-height: 500px) {
+  .container header ul li {
+    font-size: 70%;
+    margin: 0.5em;
   }
 }
