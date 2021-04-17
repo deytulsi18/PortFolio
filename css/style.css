@@ -25,7 +25,7 @@ body {
   position: sticky;
   top: 0;
   overflow: hidden;
-  padding: 0.5em;
+  padding: 0.25rem;
   color: var(--mainText);
   font-family: "Poppins", sans-serif;
   background-color: rgb(55, 66, 84);
