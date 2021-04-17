@@ -1,0 +1,139 @@
+@media only screen and (max-width: 1154px) {
+  .lang {
+    width: 30%;
+    transition: 0.3s;
+  }
+  .lang:hover{
+    width: 29.5%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .navbar {
+    flex-direction: column;
+    font-size: x-large;
+  }
+  .nav-list {
+    padding-top: 2.5rem;
+    flex-direction: column;
+  }
+  .class-resp {
+    display: none;
+  }
+  .up {
+    margin: 1em;
+  }
+  .super-header-div {
+    line-height: 4.5em;
+  }
+  .super-header {
+    padding: 2.5em 1.5em 1.5em 1.5em;
+    font-size: 4rem;
+  }
+  .about-div,
+  .div-one,
+  .div-two,
+  .div-three {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+  }
+  .container header ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(238, 238, 238);
+    padding-top: 7em;
+    flex-direction: column;
+  }
+
+  .container header.active ul {
+    display: flex;
+  }
+
+  .container header ul li {
+    text-align: center;
+    margin: 1em;
+  }
+
+  .container header ul li a {
+    color: #333;
+    font-size: 1.5em;
+  }
+
+  .container header ul li a:hover {
+    color: #303b4d;
+    font-weight: 900;
+  }
+  .menuIcon {
+    position: sticky;
+    float: right;
+    width: 50px;
+    height: 50px;
+    display: initial;
+    font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+  }
+  .menuIcon.active span {
+    display: none;
+  }
+  .menuIcon.active:after {
+    color: var(--mainColor);
+    content: '\2716';
+  }
+   #main-img {
+    width: 50%;
+    transition: 0.3s;
+  }
+  #main-img:hover{
+    width: 50.5%;
+  }
+  
+}
+@media only screen and (max-width: 750px) {
+  #name {
+    padding-left: 0.5em;
+  }
+  .about-div,
+  .div-one,
+  .div-two,
+  .div-three {
+    padding-left: 1.75em;
+    padding-right: 1.75em;
+  }
+  .img-div {
+    padding: 2em 0em 4em 0em;
+  }
+  .super-header-div {
+    line-height: 3.5em;
+  }
+  .super-header {
+    padding: 2em 1em 1em 1em;
+    font-size: 3rem;
+  }
+  .lang {
+    width: 50%;
+    transition: 0.3s;
+    padding: 1em;
+  }
+  .lang:hover{
+    width: 49.5%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .heading {
+    padding: 1em 0em 2em;
+    font-size: 2.5rem;
+  }
+  .img-div {
+    padding: 2em 0em 4em 0em;
+  }
+  #main-img {
+    width: 85%;
+    transition: 0.3s;
+  }
+  #main-img:hover {
+    width: 85.5%;
+  }
+}
