@@ -126,12 +126,12 @@ body {
   width: 30%;
   border-radius: 50%;
   /* border: 1px solid black; */
-  -webkit-box-shadow: 0 0 50px 5px rgba(0,0,0,0.5);
-  -moz-box-shadow: 0 0 50px 5px rgba(0,0,0,0.5);
-  box-shadow: 0 0 50px 5px rgba(0,0,0,0.5); 
+  -webkit-box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.5);
   transition: 0.3s;
 }
-#main-img:hover{
+#main-img:hover {
   width: 30.5%;
 }
 .lang {
@@ -145,7 +145,7 @@ body {
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(5px);
   transition: all 0.3s;
-} 
+}
 .lang:hover {
   width: 19.5%;
   background: rgba(255, 255, 255, 0.01);
@@ -172,9 +172,10 @@ body {
   float: right;
 }
 .menuIcon {
+  color: #eee;
   display: none;
 }
-#tri-line::after{
-  content: '\2630';
+#tri-line::after {
+  content: "\2630";
   text-align: center;
 }

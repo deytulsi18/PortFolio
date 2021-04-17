@@ -3,7 +3,7 @@
     width: 30%;
     transition: 0.3s;
   }
-  .lang:hover{
+  .lang:hover {
     width: 29.5%;
   }
 }
@@ -76,20 +76,20 @@
     cursor: pointer;
   }
   .menuIcon.active span {
+    color: #eee;
     display: none;
   }
   .menuIcon.active:after {
     color: var(--mainColor);
-    content: '\2716';
+    content: "\2716";
   }
-   #main-img {
+  #main-img {
     width: 50%;
     transition: 0.3s;
   }
-  #main-img:hover{
+  #main-img:hover {
     width: 50.5%;
   }
-  
 }
 @media only screen and (max-width: 750px) {
   #name {
@@ -117,7 +117,7 @@
     transition: 0.3s;
     padding: 1em;
   }
-  .lang:hover{
+  .lang:hover {
     width: 49.5%;
   }
 }
