@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 :root {
-  --mainColor: rgb(48, 59, 77);
+  /* --mainColor: #303b4d; */
+  --mainColor: #111;
+
   --mainText: #eee;
-  --mainTextDark: #232323;
-  --backgroundColor: #fff;
-  --darkBackgroundColor: rgb(100, 100, 100);
+  --mainTextDark: #000;
+  --backgroundColor: #f7f7f7;
+  --darkBackgroundColor: #646464;
 }
 
 * {
@@ -17,7 +20,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Rubik', sans-serif;
   background-color: var(--backgroundColor);
   transition: 0.3s;
 }
@@ -25,17 +28,21 @@ body {
   position: sticky;
   top: 0;
   overflow: hidden;
-  padding: 0.25rem;
-  padding-bottom: 0.1rem;
+  /* padding: 0.25rem; */
+  /* padding-bottom: 0.1rem; */
   color: var(--mainText);
   font-family: "Poppins", sans-serif;
-  background-color: rgb(55, 66, 84);
+  background-color: #171717;
   z-index: 1;
+}
+.first-div{
+  padding: 0.5rem;
 }
 .nav-list {
   font-size: 1.3rem;
   float: right;
   list-style: none;
+  /* padding: 0.5rem 0; */
 }
 .nav-list li {
   display: inline;
@@ -52,7 +59,7 @@ body {
 }
 #name {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--mainText);
   padding-left: 2em;
 }
@@ -63,13 +70,13 @@ body {
 .super-header {
   margin-right: auto;
   margin-left: auto;
-  padding: 1.75em 2em 1.75em 2em;
+  padding: 1.8em 2em 1.8em 2em;
   font-family: "Poppins", sans-serif;
   font-size: 6rem;
-  color: rgb(150, 152, 179);
+  color: #8c8c8c;
 }
 .highlight-text {
-  color: #222;
+  color: var(--mainColor);
 }
 .heading {
   text-align: center;
@@ -89,23 +96,25 @@ body {
 .about-div {
   font-size: 1.5rem;
   color: var(--mainTextDark);
-  background-color: #fff;
+  background-color: var(--backgroundColor);
   padding: 4em 4.5em 10em;
 }
 .div-one {
   font-size: 1.5rem;
   color: #eee;
-  background-color: #303b4d;
+  background-color: var(--mainColor);
   padding: 7em 4.5em;
   text-align: center;
 }
 .div-two {
   font-size: 1.5rem;
+  background-color: var(--backgroundColor);
   color: var(--mainTextDark);
   padding: 7em 4.5em 6em;
 }
 .div-three {
   font-size: 1.5rem;
+  background-color: var(--backgroundColor);
   color: var(--mainTextDark);
   padding: 3em 4.5em 7em;
 }
@@ -113,7 +122,7 @@ footer {
   text-align: center;
   font-size: 1.5rem;
   color: #eee;
-  background-color: #303b4d;
+  background-color: var(--mainColor);
   padding: 1em 2em 2em 2em;
 }
 .img-div {
@@ -159,9 +168,10 @@ footer {
   width: 1.5em;
   height: 1.5em;
   font-size: 1.5em;
-  background: rgb(48, 59, 77, 0.6);
+  background: #11111180;
   margin-top: 1em;
   padding: 0.2rem;
+  border: 0.01px inset #646464;
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
   border-top: 1px solid rgba(255, 255, 255, 0.25);
   border-left: 1px solid rgba(255, 255, 255, 0.25);
