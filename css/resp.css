@@ -12,7 +12,7 @@
     flex-direction: column;
     font-size: x-large;
   }
-  .first-div{
+  .first-div {
     padding: 0.275rem;
   }
   .class-resp {
@@ -136,6 +136,9 @@
   .lang {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  .up-div {
+    padding: 0em 1em 3.5em;
   }
 }
 @media only screen and (max-height: 500px) {
