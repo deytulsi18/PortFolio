@@ -5,3 +5,6 @@ function toggleMenu() {
     menuIcon.classList.toggle('change');
     navBar.classList.toggle('active');
 }
+function delay(URL) {
+    setTimeout(function () { window.location = URL }, 350);
+}
