@@ -84,6 +84,12 @@
   #main-img:hover {
     /* width: 50.5%; */
   }
+  .btn-yellow .proj-btn-div {
+    margin: 0;
+  }
+  .flex {
+  display: block;
+}
 }
 @media only screen and (max-width: 750px) {
   .about-div,

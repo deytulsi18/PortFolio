@@ -281,7 +281,7 @@ footer {
 }
 .btn-yellow .proj-btn-div {
   background-color: #FDDA0D;
-  padding: 1rem 3rem;
+  padding: 1rem 1.5rem;
   transition: 0.3s;
 }
 .btn-yellow:hover .proj-btn-div {
@@ -305,5 +305,5 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start
+  /* display: block; */
 }
