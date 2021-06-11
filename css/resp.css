@@ -22,7 +22,7 @@
     display: none;
   }
   .menuIcon {
-    padding-bottom: 1rem;
+    margin-top: 0;
     float: right;
     display: block;
   }
