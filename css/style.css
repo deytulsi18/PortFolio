@@ -33,6 +33,7 @@ body {
 }
 .first-div {
   padding: 0.5rem;
+  padding: 2.75vh auto;
 }
 .nav-list {
   font-size: 1.3rem;
@@ -60,14 +61,17 @@ body {
 }
 .super-header-div {
   text-align: center;
-  line-height: 7em;
+  line-height: 8em;
+  min-height: 95vh;
+  padding: auto;
 }
 .super-header {
   margin-right: auto;
   margin-left: auto;
-  padding: 1.8em 2em 1.8em 2em;
+  padding: 1.5em 2em;
   font-family: "Poppins", sans-serif;
   font-size: 6rem;
+  font-size: 7em;
   color: rgb(150, 152, 179);
 }
 .highlight-text {
@@ -92,7 +96,9 @@ body {
   font-size: 1.5rem;
   color: var(--mainTextDark);
   background-color: var(--backgroundColor);
-  padding: 4em 4.5em 1em;
+  padding: 4em 4.5em 3em;
+  background-color: #e5eaef;
+  background-color: rgb(237, 237, 237);
 }
 .div-one {
   font-size: 1.5rem;
@@ -132,25 +138,18 @@ footer {
   box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.5);
   transition: 0.3s;
 }
-#main-img:hover {
-  /* width: 30.5%; */
-}
 .lang {
   width: 20%;
   margin: 1.5em;
   padding: 1em;
-  background: rgba(255, 255, 255, 0.1);
+  transition: all 0.5s;
+  box-shadow: inset -6px -6px 10px rgba(0, 0, 0, 0.1), inset 6px 6px 20px rgba(0, 0, 0, 1);
+  border-radius: 40px;
   transform: 0.5s;
-  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-left: 1px solid rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(5px);
-  transition: all 0.3s;
 }
 .lang:hover {
-  width: 19.5%;
-  background: rgba(255, 255, 255, 0.01);
-  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: -6px -6px 20px rgba(0, 0, 0, 0.1), 6px 6px 20px rgba(0, 0, 0, 1);
 }
 .up-div {
   padding: 0em 3em 3.5em;
@@ -238,7 +237,6 @@ footer {
 }
 #mail:hover {
   color: #fff;
-  /* font-weight: bold; */
 }
 .btn-div {
   font-size: 1rem;
@@ -280,12 +278,12 @@ footer {
   text-decoration: none;
 }
 .btn-yellow .proj-btn-div {
-  background-color: #FDDA0D;
+  background-color: #fdda0d;
   padding: 1rem 1.5rem;
   transition: 0.3s;
 }
 .btn-yellow:hover .proj-btn-div {
-  background-color: #FFC000;
+  background-color: #ffc000;
 }
 .proj-div {
   margin-top: 2.5rem;
@@ -305,5 +303,4 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* display: block; */
 }

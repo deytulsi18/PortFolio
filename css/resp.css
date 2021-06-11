@@ -3,12 +3,12 @@
     width: 30%;
     transition: 0.3s;
   }
-  .lang:hover {
-    width: 29.5%;
-  }
 }
 @media only screen and (max-width: 1000px) {
-   #name {
+  .super-header-div {
+    min-height: 0;
+  }
+  #name {
     padding-left: 0.7em;
   }
   .navbar {
@@ -33,7 +33,6 @@
     line-height: 4.5em;
   }
   .super-header {
-    padding: 2.5em 1.5em 1.5em 1.5em;
     font-size: 4rem;
   }
   .about-div,
@@ -81,15 +80,12 @@
     width: 50%;
     transition: 0.3s;
   }
-  #main-img:hover {
-    /* width: 50.5%; */
-  }
   .btn-yellow .proj-btn-div {
     margin: 0;
   }
   .flex {
-  display: block;
-}
+    display: block;
+  }
 }
 @media only screen and (max-width: 750px) {
   .about-div,
@@ -114,9 +110,6 @@
     transition: 0.3s;
     padding: 1em;
   }
-  .lang:hover {
-    width: 49.5%;
-  }
 }
 @media only screen and (max-width: 550px) {
   .heading {
@@ -129,9 +122,6 @@
   #main-img {
     width: 85%;
     transition: 0.3s;
-  }
-  #main-img:hover {
-    /* width: 85.5%; */
   }
   .contact a {
     margin: 0.25em;
