@@ -60,15 +60,18 @@ body {
   padding-left: 2em;
 }
 .super-header-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   line-height: 8em;
-  min-height: 95vh;
+  min-height: 90vh;
   padding: auto;
 }
 .super-header {
   margin-right: auto;
   margin-left: auto;
-  padding: 1.5em 2em;
+  padding: 1em 2em;
   font-family: "Poppins", sans-serif;
   font-size: 6rem;
   font-size: 7em;
@@ -296,7 +299,7 @@ footer {
 }
 
 .first-div {
-  padding: 0.75rem;
+  padding: 1.125rem 0.75rem;
 }
 
 .flex {
