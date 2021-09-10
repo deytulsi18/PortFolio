@@ -1,4 +1,4 @@
 # Portfolio
 This is my portfolio website.
 
-Click [here](https://deytulsi18.github.io/Portfolio/) to view it.
+Click [here](https://deytulsi18.github.io/portfolio-v1/) to view it.
